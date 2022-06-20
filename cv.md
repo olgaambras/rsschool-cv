@@ -1,16 +1,18 @@
 ####rsschool-cv
 
-##Olga Ambras
+##Olga Ambras  
 ###Junior Frontend Developer
 
-**e-mail:** hello.olga.ambras@gmail.com
+**e-mail:** hello.olga.ambras@gmail.com  
 **phone:** +380 99 035 78 77
 
-**telegram:** @olga_ambras
-**GitHub:** olgaambras
+**telegram:** @olga_ambras  
+**GitHub:** olgaambras  
 **Discord:** Olga.Ambras
 
 ---
+
+Briefly about myself
 
 > I started my career in interior design, but along with that, I became interested in photography of food and objects. It became my profession for 5 years.
 > Working with medium and small businesses, I learned how to take "delicious and selling" photos and communicate with both business owners and colleagues in the team.
@@ -64,9 +66,10 @@ tabs.addEventListener('click', e => {
 
 ---
 
-#####Education:
-Kharkiv National University
+#####Education:  
+Kharkiv National University  
 of Construction and Architecture (interior design)
+
 #####Courses:
 
 - HTML and CSS [ru.code-basics.com]
