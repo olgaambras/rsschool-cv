@@ -1,7 +1,8 @@
-####rsschool-cv
+### rsschool-cv
 
-##Olga Ambras  
-###Junior Frontend Developer
+## Olga Ambras
+
+### Junior Frontend Developer
 
 **e-mail:** hello.olga.ambras@gmail.com  
 **phone:** +380 99 035 78 77
@@ -12,11 +13,11 @@
 
 ---
 
-Briefly about myself
+##### Briefly about myself...
 
-> I started my career in interior design, but along with that, I became interested in photography of food and objects. It became my profession for 5 years.
-> Working with medium and small businesses, I learned how to take "delicious and selling" photos and communicate with both business owners and colleagues in the team.
-> But the desire to try new things motivated me to study graphic design, website layout and programming languages.
+> I started my career in interior design, but along with that, I became interested in photography of food and objects. It became my profession for 5 years.  
+> Working with medium and small businesses, I learned how to take "delicious" photos and communicate with both business owners and colleagues in the team.  
+> But the desire to try new things motivated me to study graphic design, website layout and programming languages.  
 > Now I am completely passionate about front-end development and I want to achieve high professional success in this!
 
 - ability to systematize and optimize information
@@ -27,7 +28,7 @@ Briefly about myself
 
 ---
 
-#####Skills and Proficiency:
+##### Skills and Proficiency:
 
 - HTML5, CSS3
 - JavaScript (Basics)
@@ -37,7 +38,7 @@ Briefly about myself
 
 ---
 
-#####Code example:
+##### Code example:
 
 ```
 
@@ -66,11 +67,12 @@ tabs.addEventListener('click', e => {
 
 ---
 
-#####Education:  
+##### Education:
+
 Kharkiv National University  
 of Construction and Architecture (interior design)
 
-#####Courses:
+##### Courses:
 
 - HTML and CSS [ru.code-basics.com]
 - JavaScript/Front-end Sourse IT Course (completed)
@@ -79,7 +81,7 @@ of Construction and Architecture (interior design)
 
 ---
 
-#####Languages:
+##### Languages:
 
 - English - A2 (in process)
 - Ukrainian - native
