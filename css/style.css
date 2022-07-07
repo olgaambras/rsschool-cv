@@ -1,13 +1,16 @@
 .body {
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #040404;
 }
 
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 * {
     box-sizing: border-box;
@@ -18,43 +21,60 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Блок навигации вверху */
 .header {
-    border: 1px solid red;
+    height: 20%;
     margin: 0px auto;
-    background-color: rgb(229, 235, 132);
-    font-family: sans-serif;
+    background-color: rgb(148, 168, 142);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: rgb(254, 254, 254);
+    
 }
 
+/* Центральный блок с блоками */
 .main {
-    border: 1px solid red;
     margin: 0px;
-    background-color: rgb(112, 144, 165);
+    background-color: #fff
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 300;*/
 }
 
 .footer {
-    border: 1px solid red;
-    background-color: rgb(185, 194, 213);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(148, 168, 142);
+    padding: 20px 0 0 0 ;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(254, 254, 254);
+    height: 60px;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1024px;
     margin: 0 auto;
 }
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+}
+
+.contact-item {
+    color:rgb(148, 168, 142);
 }
 
 .section{
     width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 10px 0px 10px 0px;
+}
+
+.section li {
+    line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -63,32 +83,51 @@ html {
     }
 }
 
+.section-title-main{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section-title-main-{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: rgb(148, 168, 142);
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(148, 168, 142);
+}
+
+
+/* Блок навигации --- расположение в линию, расстояние между кнопками */
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
+/* Блок навигации --- шрифт, сами кнопочки, курсор*/
 .nav-link {
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 30px;
     text-decoration: none;
-    font-size: 30px;
-    color: rgb(45, 87, 28);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
     transition: .3s;
     cursor: pointer
 }
 
-.nav-link {
-    transition: .3s;
-}
-.section-item a {
-    color: #829985;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.section-item a:hover {
+/* .section-item a:hover {
     color: #4d2323;
-}
+} */
